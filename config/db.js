@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
 // ตั้งค่าการเชื่อมต่อกับฐานข้อมูล PostgreSQL
-const sequelize = new Sequelize('postgres://default:UzpFm7Dx4ZHq@ep-gentle-bonus-a1kp6w83.ap-southeast-1.aws.neon.tech:5432/verceldb', {
+const sequelize = new Sequelize('postgres://default:GPAdbz6UM4qj@ep-yellow-hall-a4vtfz6j.us-east-1.aws.neon.tech:5432/verceldb', {
   dialect: 'postgres',
   dialectOptions: {
     ssl: {
